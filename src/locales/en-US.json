@@ -43,11 +43,11 @@
   "error": {
     "400": {
       "title": "Invalid Parameters",
-      "message": "Invalid parameters or icon (PNG 40×40 required)",
+      "message": "Invalid parameters or icon",
       "suggestion": "Re-upload or remove icon; ensure no data URL prefix; ensure correct size and format"
     },
     "icon": {
-      "invalid": "Invalid icon (PNG 40×40 required)"
+      "invalid": "Invalid icon"
     },
     "link": {
       "invalid": "Invalid link. Use http/https or a valid URL scheme"
