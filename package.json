@@ -1,0 +1,32 @@
+{
+  "name": "castcard",
+  "version": "0.2.0",
+  "private": true,
+  "license": "AGPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaminono/CastCard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kaminono/CastCard/issues"
+  },
+  "homepage": "https://github.com/kaminono/CastCard#readme",
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build"
+  },
+  "dependencies": {
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.0.0"
+  }
+}
+

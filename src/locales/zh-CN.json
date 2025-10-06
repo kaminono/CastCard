@@ -1,0 +1,111 @@
+{
+  "app": {
+    "title": "CastCard · 墨投",
+    "subtitle": "把文字与图片,一键投到电子屏"
+  },
+  "section": {
+    "connection": "连接配置",
+    "text": "文本内容",
+    "operation": "发送操作",
+    "response": "回执信息"
+  },
+  "field": {
+    "apiKey": "API Key",
+    "apiKeyPlaceholder": "请输入您的 Dot API Key",
+    "deviceId": "设备 ID",
+    "deviceIdPlaceholder": "请输入设备 ID (如: 48F6EE55ADDC)",
+    "title": "标题",
+    "titlePlaceholder": "可选,显示在屏幕上方",
+    "message": "消息内容",
+    "messagePlaceholder": "主要文本内容",
+    "signature": "签名",
+    "signaturePlaceholder": "可选,显示在底部",
+    "icon": "图标",
+    "link": "链接",
+    "linkPlaceholder": "可选,如: https://example.com 或 x-apple-health://",
+    "refreshNow": "立即显示"
+  },
+  "cta": {
+    "send": "发送",
+    "clearData": "清除本地数据",
+    "viewDocs": "查看文档",
+    "selectIcon": "选择图标",
+    "removeIcon": "移除图标"
+  },
+  "toast": {
+    "success": "操作成功",
+    "sendSuccess": "文本已发送到设备",
+    "dataCleared": "本地数据已清除",
+    "rateLimitWait": "速率限制: 请等待 {seconds} 秒",
+    "confirmClear": "确定要清除所有本地数据吗？这将清空 API Key 和 Device ID。",
+    "emptyContent": "不能发送空内容"
+  },
+  "error": {
+    "400": {
+      "title": "参数错误",
+      "message": "参数有误或图标无效（需 PNG 40×40）",
+      "suggestion": "重新上传或移除图标；确保不是 data URL 前缀；确保转换后尺寸与格式正确"
+    },
+    "icon": {
+      "invalid": "图标无效（需 PNG 40×40）"
+    },
+    "link": {
+      "invalid": "链接格式不正确，请使用 http/https 或有效的 URL Scheme"
+    },
+    "403": {
+      "title": "无权限",
+      "message": "无权限操作此设备",
+      "suggestion": "请检查 API Key 是否正确,以及该设备是否归属于您的账号"
+    },
+    "404": {
+      "title": "设备未找到",
+      "message": "设备未找到或未注册,或该设备未添加 Text API 内容",
+      "suggestion": "请确认设备 ID 正确,且已在 Dot 应用中添加 Text API 内容源"
+    },
+    "500": {
+      "title": "设备响应失败",
+      "message": "设备响应失败,切换失败",
+      "suggestion": "请稍后重试,或检查设备网络连接状态"
+    },
+    "network": {
+      "title": "网络错误",
+      "message": "网络请求失败,请检查网络连接",
+      "suggestion": "请确保网络连接正常,并允许访问 dot.mindreset.tech"
+    },
+    "unknown": {
+      "title": "未知错误",
+      "message": "发生未知错误",
+      "suggestion": "请查看详细错误信息或联系技术支持"
+    }
+  },
+  "info": {
+    "rateLimit": "速率限制: 1 次/秒",
+    "refreshNowHint": "开启后,设备将立即切换到此内容",
+    "requiredFields": "* 必须填写 deviceId 和 message",
+    "iconHint": "图标需要 PNG 40×40，发送时将转换为 Base64",
+    "iconDragHint": "或拖拽图片文件到此处",
+    "linkHint": "支持 http/https 或 URL Scheme，例如 x-apple-health://",
+    "processing": "处理中..."
+  },
+  "response": {
+    "httpStatus": "HTTP 状态",
+    "code": "代码",
+    "message": "消息",
+    "result": "结果"
+  },
+  "footer": {
+    "disclaimer": "CastCard · 墨投 与 Dot 官方无从属关系,基于公开 API 开发",
+    "privacy": "隐私说明: 本应用不记录、不上传任何 API Key,仅在浏览器会话内保存",
+    "opensource": "开源项目"
+  },
+  "theme": {
+    "light": "亮色",
+    "dark": "暗色",
+    "system": "跟随系统"
+  },
+  "language": {
+    "zh-CN": "简体中文",
+    "en-US": "English"
+  }
+}
+

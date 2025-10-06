@@ -1,0 +1,111 @@
+{
+  "app": {
+    "title": "CastCard",
+    "subtitle": "Send text and images to your Dot device with one click"
+  },
+  "section": {
+    "connection": "Connection",
+    "text": "Text Content",
+    "operation": "Send Operation",
+    "response": "Response"
+  },
+  "field": {
+    "apiKey": "API Key",
+    "apiKeyPlaceholder": "Enter your Dot API Key",
+    "deviceId": "Device ID",
+    "deviceIdPlaceholder": "Enter Device ID (e.g., 48F6EE55ADDC)",
+    "title": "Title",
+    "titlePlaceholder": "Optional, displayed at the top",
+    "message": "Message",
+    "messagePlaceholder": "Main text content",
+    "signature": "Signature",
+    "signaturePlaceholder": "Optional, displayed at the bottom",
+    "icon": "Icon",
+    "link": "Link",
+    "linkPlaceholder": "Optional, e.g., https://example.com or x-apple-health://",
+    "refreshNow": "Refresh Now"
+  },
+  "cta": {
+    "send": "Send",
+    "clearData": "Clear Local Data",
+    "viewDocs": "View Docs",
+    "selectIcon": "Select Icon",
+    "removeIcon": "Remove Icon"
+  },
+  "toast": {
+    "success": "Success",
+    "sendSuccess": "Text sent to device",
+    "dataCleared": "Local data cleared",
+    "rateLimitWait": "Rate limit: Please wait {seconds} seconds",
+    "confirmClear": "Are you sure you want to clear all local data? This will remove your API Key and Device ID.",
+    "emptyContent": "Cannot send empty content"
+  },
+  "error": {
+    "400": {
+      "title": "Invalid Parameters",
+      "message": "Invalid parameters or icon (PNG 40×40 required)",
+      "suggestion": "Re-upload or remove icon; ensure no data URL prefix; ensure correct size and format"
+    },
+    "icon": {
+      "invalid": "Invalid icon (PNG 40×40 required)"
+    },
+    "link": {
+      "invalid": "Invalid link. Use http/https or a valid URL scheme"
+    },
+    "403": {
+      "title": "Forbidden",
+      "message": "No permission to operate this device",
+      "suggestion": "Check if API Key is correct and the device belongs to your account"
+    },
+    "404": {
+      "title": "Not Found",
+      "message": "Device not found or not registered, or Text API content not added",
+      "suggestion": "Confirm Device ID is correct and Text API content is added in Dot app"
+    },
+    "500": {
+      "title": "Device Response Failure",
+      "message": "Device response failed, switch failed",
+      "suggestion": "Please retry later or check device network connection"
+    },
+    "network": {
+      "title": "Network Error",
+      "message": "Network request failed, please check connection",
+      "suggestion": "Ensure network is available and access to dot.mindreset.tech is allowed"
+    },
+    "unknown": {
+      "title": "Unknown Error",
+      "message": "An unknown error occurred",
+      "suggestion": "Check detailed error message or contact support"
+    }
+  },
+  "info": {
+    "rateLimit": "Rate Limit: 1 request/second",
+    "refreshNowHint": "When enabled, device will switch to this content immediately",
+    "requiredFields": "* deviceId and message are required",
+    "iconHint": "Icon must be a 40×40 PNG. It will be sent as Base64",
+    "iconDragHint": "Or drag and drop an image file here",
+    "linkHint": "Supports http/https or URL scheme, e.g., x-apple-health://",
+    "processing": "Processing..."
+  },
+  "response": {
+    "httpStatus": "HTTP Status",
+    "code": "Code",
+    "message": "Message",
+    "result": "Result"
+  },
+  "footer": {
+    "disclaimer": "CastCard is not affiliated with Dot official, built on public API",
+    "privacy": "Privacy: This app does not log or upload any API Keys, stored in browser session only",
+    "opensource": "Open Source"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "language": {
+    "zh-CN": "简体中文",
+    "en-US": "English"
+  }
+}
+

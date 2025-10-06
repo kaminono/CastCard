@@ -1,0 +1,31 @@
+.section-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: var(--spacing);
+  color: var(--color-text);
+}
+
+.connection-status {
+  display: flex;
+  gap: var(--spacing-sm);
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.status-display {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+@media (max-width: 640px) {
+  .connection-status {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .status-display {
+    justify-content: center;
+  }
+}
+
