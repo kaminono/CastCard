@@ -82,7 +82,7 @@
     "rateLimit": "速率限制: 1 次/秒",
     "refreshNowHint": "开启后,设备将立即切换到此内容",
     "requiredFields": "* 必须填写 deviceId 和 message",
-    "iconHint": "，发送时将转换为 Base64",
+    "iconHint": "发送时将转换为 Base64",
     "iconDragHint": "或拖拽图片文件到此处",
     "linkHint": "支持 http/https 或 URL Scheme，例如 x-apple-health://",
     "processing": "处理中..."
